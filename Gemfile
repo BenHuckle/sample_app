@@ -14,10 +14,21 @@ end
 
 group :development do
 	gem 'rspec-rails', '2.6.1'
+	gem "autotest-rails-pure"
+  gem "autotest-growl"
+  gem "autotest-fsevent"
+    gem 'autotest'
+
 end
 
 group :test do
   gem 'rspec-rails', '2.6.1'
+  gem 'spork', '0.9.0.rc8'
+  gem "autotest-rails-pure"
+  gem "autotest-growl"
+  gem "autotest-fsevent"
+  gem 'webrat'
+
 end
 
 # Gems used only for assets and not required
